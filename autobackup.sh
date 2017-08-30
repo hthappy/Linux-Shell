@@ -7,7 +7,6 @@ DB_HOST = localhost #数据库地址
 DB_USER = root  #数据库用户名
 DB_PASSWD = "123456" #数据库密码
 DB_NAME = blog #数据库名
-DB_PORT = 3306 #数据库端口
 BACK_DATE=$(date +%Y%m%d)  #日期显示样式：20170830
 
 ################---- 数据库备份 ----################

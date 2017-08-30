@@ -45,6 +45,6 @@ tar -cPf /data/backup/blog.tar /data/backup/blog/blog
 tarblog=/data/backup/blog.tar
 MAIL=123456@qq.com
 
-mail -a $tarblog -s "hetaobb.com 数据备份报告！  `(date +%Y-%m-%d)`"  $MAIL < $backup_log
+mail -a $tarblog -s "备份报告！  `(date +%Y-%m-%d)`"  $MAIL < $backup_log
 
 rm -rf $tarblog   #删除打包文件

@@ -39,9 +39,9 @@ else
 fi
 
 #将备份数据打包
-tar -cPf /data/backup/blog.tar /data/backup/blog/blog
+tar -zcPf /data/backup/blog.tar.gz /data/backup/blog/blogg
 #将备份数据发送至邮箱
-tarblog=/data/backup/blog.tar
+tarblog=/data/backup/blog.tar.gz
 MAIL=123456@qq.com
 
 mail -a $tarblog -s "数据备份报告！  `(date +%Y-%m-%d)`"  $MAIL < $backup_log

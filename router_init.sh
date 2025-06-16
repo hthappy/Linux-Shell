@@ -1,1 +1,1 @@
-openwrt初始化脚本
+echo "测试"
